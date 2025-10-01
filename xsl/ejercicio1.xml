@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejercicio2.xsl" type="text/xsl"?>
+<catalogo>
+    <cerveza>
+        <nombre>Heineken</nombre>
+        <empresa>Heineken International</empresa>
+        <grados>5</grados>
+        <tipo>Lager</tipo>
+        <precio>1.50€</precio>
+    </cerveza>
+
+    <cerveza>
+        <nombre>Guinness</nombre>
+        <empresa>Diageo</empresa>
+        <grados>4.2</grados>
+        <tipo>Stout</tipo>
+        <precio>2.00€</precio>
+    </cerveza>
+
+    <cerveza>
+        <nombre>Paulaner</nombre>
+        <empresa>Paulaner Brewery</empresa>
+        <grados>5.5</grados>
+        <tipo>Trigo</tipo>
+        <precio> 2.50€</precio>
+    </cerveza>
+
+    <cerveza>
+        <nombre>Mahou</nombre>
+        <empresa>Mahou San Miguel</empresa>
+        <grados>5.5</grados>
+        <tipo>Lager</tipo>
+        <precio>1.20€</precio>
+    </cerveza>
+
+    <cerveza>
+        <nombre>Chimay Azul</nombre>
+        <empresa>Chimay Brewery</empresa>
+        <grados>9</grados>
+        <tipo>Trapense</tipo>
+        <precio>3.50€</precio>
+    </cerveza>
+
+    <cerveza>
+        <nombre>Corona</nombre>
+        <empresa>Grupo Modelo</empresa>
+        <grados>4.6</grados>
+        <tipo>Lager</tipo>
+        <precio>1.80€</precio>
+    </cerveza>
+</catalogo>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <?xml-stylesheet href="ejer6.xsl" type="text/xsl"?>
+
+<concesionario>
+    <coche>
+        <codigo>123</codigo>
+        <marca>Renault</marca>
+        <modelo>Veloz</modelo>
+        <matricula>4444D</matricula>
+        <potencia>120</potencia>
+        <plazas>4</plazas>
+        <puertas>2</puertas>
+    </coche>
+
+    <coche>
+       <codigo>321</codigo>
+        <marca>Renault</marca>
+        <modelo>Lento</modelo>
+        <matricula>6664</matricula>
+        <potencia>120</potencia>
+        <plazas>2</plazas>
+        <puertas>6</puertas>
+    </coche>
+
+    <coche>
+       <codigo>1111</codigo>
+        <marca>Merces</marca>
+        <modelo>Super Rapido</modelo>
+        <matricula>9893</matricula>
+        <potencia>50</potencia>
+        <plazas>5</plazas>
+        <puertas>6</puertas>
+    </coche>
+
+    <coche>
+        <codigo>9921</codigo>
+        <marca>Peugeout</marca>
+        <modelo>Verde</modelo>
+        <matricula>42222244D</matricula>
+        <potencia>80</potencia>
+        <plazas>4</plazas>
+        <puertas>2</puertas>
+    </coche>
+
+    <coche>
+        <codigo>1244443</codigo>
+        <marca>Renault</marca>
+        <modelo>Clio</modelo>
+        <matricula>590O</matricula>
+        <potencia>120</potencia>
+        <plazas>4</plazas>
+        <puertas>2</puertas>
+    </coche>
+
+    <coche>
+        <codigo>12222223</codigo>
+        <marca>Citroen</marca>
+        <modelo>Lila</modelo>
+        <matricula>44de344D</matricula>
+        <potencia>100</potencia>
+        <plazas>5</plazas>
+        <puertas>5</puertas>
+    </coche>
+    
+    <coche>
+        <codigo>12223</codigo>
+        <marca>Porsche</marca>
+        <modelo>Panamera</modelo>
+        <matricula>77EE00</matricula>
+        <potencia>10</potencia>
+        <plazas>5</plazas>
+        <puertas>2</puertas>
+    </coche>
+</concesionario>

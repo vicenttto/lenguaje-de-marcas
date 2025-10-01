@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejer10.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<documentos>
+    <documento>
+        <nombre>Lucía Sánchez García</nombre>
+        <contraseña>1234JKNM</contraseña>
+    </documento>
+    <documento>
+        <nombre>Fernando López Fernández</nombre>
+        <contraseña>po12jo34as</contraseña>
+    </documento>
+</documentos>

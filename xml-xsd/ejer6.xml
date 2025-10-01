@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejer6.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<fichas>
+    <ficha numero ="1">
+    <nombre>PaulaGarcía</nombre>
+    <edad>21</edad>
+    </ficha>
+    <ficha numero="2">
+    <nombre>JesúsCano</nombre>
+    <edad>23</edad>
+    </ficha>
+</fichas>

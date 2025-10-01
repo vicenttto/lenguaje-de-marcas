@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejer5.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<asignaturas nombre="Hola">
+    <asignatura nombre="Lenguaje de Marcas">
+        <fp>ASIR</fp>
+        <curso>primero</curso>
+        <creditos>7</creditos>
+    </asignatura>
+<asignatura nombre="Implantación de Aplicaciones Web">
+        <fp>ASIR</fp>
+        <curso>segundo</curso>
+        <creditos>6</creditos>
+    </asignatura>
+</asignaturas>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejer3.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<entradas>
+    <entrada numero="1">
+        <musical>El Rey León</musical>
+        <precio>50</precio>
+    </entrada>
+    <entrada numero="2">
+        <musical>El Rey León</musical>
+        <precio>25</precio>
+    </entrada>
+</entradas>

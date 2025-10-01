@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejer1.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<ciudades>
+    <ciudad>Italia</ciudad>
+    <fecha-de-nacimiento>1996-12-18</fecha-de-nacimiento>
+    <hora>20:45:00</hora>
+    <nota>6.3</nota>
+    <apto>true</apto>
+</ciudades>

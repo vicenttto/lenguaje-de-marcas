@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="animal" type="tipoAnimal"></xs:element>
+    
+    <xs:simpleType name="tipoAnimal">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="mamifero"></xs:enumeration>
+            <xs:enumeration value="aves"></xs:enumeration>
+            <xs:enumeration value="reptiles"></xs:enumeration>
+            <xs:enumeration value="anfibio"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

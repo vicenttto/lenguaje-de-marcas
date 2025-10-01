@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="asignaturas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="asignatura" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="fp" type="xs:string"></xs:element>
+                            <xs:element name="curso" type="xs:string"></xs:element>
+                            <xs:element name="creditos">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="3"></xs:minInclusive>
+                                        <xs:maxInclusive value="7"></xs:maxInclusive>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="nombre" type="xs:string"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="nombre" type="xs:string"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

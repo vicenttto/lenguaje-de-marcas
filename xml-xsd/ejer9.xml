@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejer9.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<documentos>
+    <documento>
+        <nombre>Alberto Ruíz Zamora</nombre>
+        <iniciales>ARZ</iniciales>
+        <edad>28</edad>
+    </documento>
+    <documento>
+        <nombre>Mario Ayuso López </nombre>
+        <iniciales>MAE</iniciales>
+        <edad>23</edad>
+    </documento>
+    <documento>
+        <nombre>Ana García Arcís</nombre>
+        <iniciales>AGA</iniciales>
+        <edad>24</edad>
+    </documento>
+    <documento>
+        <nombre>Pablo Romero Pérez</nombre>
+        <iniciales>TET</iniciales>
+        <edad>24</edad>
+    </documento>
+</documentos>

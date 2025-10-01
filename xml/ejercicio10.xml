@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE profesiones [
+    <!ELEMENT profesiones (profesion*)>
+    <!ELEMENT profesion (informatico | docente | quimico)>
+    <!ELEMENT informatico (#PCDATA)>
+    <!ELEMENT docente (#PCDATA)>
+    <!ATTLIST docente especialidad CDATA #REQUIRED>
+    <!ATTLIST docente horas CDATA #IMPLIED>
+    <!ATTLIST docente evaluacion CDATA #REQUIRED>
+    <!ELEMENT quimico (#PCDATA)>
+]>
+<profesiones>
+    <profesion>
+        <informatico>Antonio</informatico>
+    </profesion>
+    <profesion>
+        <docente especialidad="Inglés" evaluacion="Continua">Lucas</docente>
+    </profesion>
+    <profesion>
+        <quimico>Pepito</quimico>
+    </profesion>
+</profesiones>
+
+<!-- Ejercicio: crea un documento XML, donde pueda aparecer cero o más elementos “profesion” y que
+contengan los siguientes elementos: (informatico | docente | quimico). Además, el elemento
+"docente"
+con los siguientes atributos "especialidad", “horas” y “evaluacion”. De ellos, “horas” será
+opcional
+mientras que el atributo “especialidad” debe ser obligatorio. -->

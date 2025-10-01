@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportes [
+    <!ELEMENT deportes (jugador*)>
+    <!ELEMENT jugador ((dorsal,puesto) | nombre)>
+    <!ELEMENT dorsal (#PCDATA)>
+    <!ELEMENT puesto (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+]>
+<deportes>
+    <jugador>
+        <dorsal>34</dorsal>
+        <puesto>Delantero</puesto>
+    </jugador>
+    <jugador>
+        <nombre>MESSI</nombre>
+    </jugador>
+
+</deportes>
+
+
+<!-- Ejercicio: modifica el documento XML, donde pueden aparecer cero o más elementos "jugador". En
+el caso de aparecer, cada uno de ellos contendrá los elementos "dorsal" y "puesto" o, de manera
+alternativa, un elemento "nombre": -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+    <!ELEMENT persona (jugador*)>
+    <!ELEMENT jugador ((dorsal | puesto), nombre)>
+    <!ELEMENT dorsal (#PCDATA)>
+    <!ELEMENT puesto (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+]>
+<persona>
+    <jugador>
+        <dorsal>33</dorsal>
+        <nombre>Messi</nombre>
+    </jugador>
+</persona>

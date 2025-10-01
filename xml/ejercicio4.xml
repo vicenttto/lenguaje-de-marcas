@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE disqueria [
+    <!ELEMENT disqueria (discos)>
+    <!ELEMENT discos (titulo,anyo,canciones*)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT anyo (#PCDATA)>
+    <!ELEMENT canciones (#PCDATA)>
+]>
+
+<disqueria>
+    <discos>
+        <titulo>Alegria</titulo>
+        <anyo>1954</anyo>
+        <canciones>Peligro</canciones>
+        <canciones>De lujo</canciones>
+        <canciones>Muerte</canciones>
+    </discos>
+</disqueria>

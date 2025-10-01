@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Biblioteca [
+    <!ELEMENT Biblioteca (libros+)>
+    <!ELEMENT libros (codigo_libro, titulo, editorial, edicion, isbn, num_paginas,autor)>
+    <!ELEMENT codigo_libro (#PCDATA)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT edicion (#PCDATA)>
+    <!ELEMENT isbn (#PCDATA)>
+    <!ELEMENT num_paginas (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+]>
+
+<Biblioteca>
+    <libros>
+        <codigo_libro>123</codigo_libro>
+        <titulo>Libro especial</titulo>
+        <editorial>Anaya</editorial>
+        <edicion>Edelvives</edicion>
+        <isbn>ES75738</isbn>
+        <num_paginas>260</num_paginas>
+        <autor>Antonio</autor>
+    </libros>
+
+    <libros>
+        <codigo_libro>123</codigo_libro>
+        <titulo>Libro genial</titulo>
+        <editorial>Santillana</editorial>
+        <edicion>Santero</edicion>
+        <isbn>ES75738</isbn>
+        <num_paginas>444</num_paginas>
+        <autor>Pepe</autor>
+    </libros>
+
+    <libros>
+        <codigo_libro>7676</codigo_libro>
+        <titulo>Libro locura</titulo>
+        <editorial>Tornillo</editorial>
+        <edicion>Picolo</edicion>
+        <isbn>33354</isbn>
+        <num_paginas>1111</num_paginas>
+        <autor>Patricio</autor>
+    </libros>
+
+
+</Biblioteca>

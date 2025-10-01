@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE estudios [
+    <!ELEMENT estudios (asignaturas*)>
+    <!ELEMENT asignaturas (nombre,curso,profesor)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ATTLIST nombre codigo NMTOKEN #REQUIRED>
+    <!ELEMENT curso (#PCDATA)>
+    <!ELEMENT profesor (#PCDATA)>
+]>
+<estudios>
+    <asignaturas>
+        <nombre codigo="123456">castellano</nombre>
+        <curso>2º de la ESO</curso>
+        <profesor>Antonio</profesor>
+    </asignaturas>
+</estudios>

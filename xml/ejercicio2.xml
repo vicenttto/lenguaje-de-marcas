@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Biblioteca [
+    <!ELEMENT Biblioteca (libros+)>
+    <!ELEMENT libros (codigo_libro, titulo, editorial, edicion, isbn, num_paginas,autor)>
+    <!ELEMENT codigo_libro (#PCDATA)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT edicion (#PCDATA)>
+    <!ELEMENT isbn (#PCDATA)>
+    <!ELEMENT num_paginas (#PCDATA)>
+    <!ELEMENT autor (fecha_nacimiento,lugar_nacimiento,edad)>
+    <!ELEMENT fecha_nacimiento (#PCDATA)>
+    <!ELEMENT lugar_nacimiento (#PCDATA)>
+    <!ELEMENT edad (#PCDATA)>
+]>
+
+<Biblioteca>
+    <libros>
+        <codigo_libro>33434</codigo_libro>
+        <titulo>La vida</titulo>
+        <editorial>Santillana</editorial>
+        <edicion>Bolsillus</edicion>
+        <isbn>6544</isbn>
+        <num_paginas>120</num_paginas>
+        <autor>
+            <fecha_nacimiento>1990</fecha_nacimiento>
+            <lugar_nacimiento>Londres</lugar_nacimiento>
+            <edad>33</edad>
+        </autor>
+    </libros>
+
+    <libros>
+        <codigo_libro>1123</codigo_libro>
+        <titulo>La muerte</titulo>
+        <editorial>Peine</editorial>
+        <edicion>Lalope</edicion>
+        <isbn>44555</isbn>
+        <num_paginas>400</num_paginas>
+        <autor>
+            <fecha_nacimiento>1999</fecha_nacimiento>
+            <lugar_nacimiento>Javali Nuevo</lugar_nacimiento>
+            <edad>77</edad>
+        </autor>
+    </libros>
+
+    <libros>
+        <codigo_libro>98766</codigo_libro>
+        <titulo>La sombra</titulo>
+        <editorial>Casa</editorial>
+        <edicion>Raton</edicion>
+        <isbn>7775</isbn>
+        <num_paginas>2000</num_paginas>
+        <autor>
+            <fecha_nacimiento>2001</fecha_nacimiento>
+            <lugar_nacimiento>Sangonera</lugar_nacimiento>
+            <edad>88</edad>
+        </autor>
+    </libros>
+
+
+</Biblioteca>

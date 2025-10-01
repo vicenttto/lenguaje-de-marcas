@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE profesiones [
+    <!ELEMENT profesiones (profesion*)>
+    <!ELEMENT profesion (informatico | docente | quimico)>
+    <!ELEMENT informatico (#PCDATA)>
+    <!ELEMENT docente (#PCDATA)>
+    <!ATTLIST docente especialidad CDATA #IMPLIED>
+    <!ELEMENT quimico (#PCDATA)>
+]>
+<profesiones>
+    <profesion>
+        <quimico>Pepito</quimico>
+    </profesion>
+
+    <profesion>
+        <docente>Laurero</docente>
+    </profesion>
+</profesiones>

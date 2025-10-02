@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="icon" type="images/png" href="media/flaticon.png" />
+</head>
+
+<body>
+    <header>
+        <img class="tituloizq" src="media/logo.png" title="Alimentación Saludable" alt="Alimentación Saludable" />
+        <img class="titulocentr" src="media/titulo.png" title="Alimentación Saludable" alt="Alimentación Saludable" />
+        <img class="tituloder" src="media/logo.png" title="Alimentación Saludable" alt="Alimentación Saludable" />
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li class="lista">INICIO</li>
+                </a>
+                <a href="dieta.html">
+                    <li class="lista">DIETA</li>
+                </a>
+                <a href="multimedia.html">
+                    <li class="lista">MULTIMEDIA</li>
+                </a>
+                <a href="contacto.html">
+                    <li class="lista">CONTACTO</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section>
+            <article class="articulo_principal">
+                <div class="comida">
+                    <img src="media/tomate.png" width="50" height="50" title="Tomate" alt="Tomate" />
+                    <img src="media/queso.png" width="50" height="50" title="Queso" alt="Queso" />
+                    <img src="media/carne.png" width="50" height="50" title="Carne" alt="Carne" />
+                    <img src="media/pescado.png" width="50" height="50" title="Pescado" alt="Pescado" />
+                    <img src="media/manzana.png" width="50" height="50" title="Manzana" alt="Manzana" />
+                    <img src="media/zanahoria.png" width="50" height="50" title="Nube" alt="Nube" />
+                </div>
+                <h2>Contacto</h2>
+                <div class="comida">
+                    <img src="media/tomate.png" width="50" height="50" title="Tomate" alt="Tomate" />
+                    <img src="media/queso.png" width="50" height="50" title="Queso" alt="Queso" />
+                    <img src="media/carne.png" width="50" height="50" title="Carne" alt="Carne" />
+                    <img src="media/pescado.png" width="50" height="50" title="Pescado" alt="Pescado" />
+                    <img src="media/manzana.png" width="50" height="50" title="Manzana" alt="Manzana" />
+                    <img src="media/zanahoria.png" width="50" height="50" title="Nube" alt="Nube" />
+                </div>
+            </article>
+            <article>
+                <form>
+                    <fieldset>
+                        <legend><h3>Registro</h3></legend>
+                    <div class="formu">
+                        <label for="usuario">Usuario:</label>
+                        <input type="text" id="usuario" name="usuario" placeholder="Introduzca su usuario..." required>
+                        <label for="contraseña">Contraseña:</label>
+                        <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" required>
+                    </div>
+                    </fieldset>
+                    <fieldset>
+                        
+                            <legend><h3>Datos personales</h3></legend>
+                            <div class="formu">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" pattern="[A-Za-z]+" required>
+                            <label for="apellidos">Apellidos:</label>
+                            <input type="text" id="apellidos" name="apellidos" size="30px">
+                            <label for="email">Email:</label>
+                            <input id="email" type="email" name="email" placeholder="ejemplo@gmail.com" required>
+                            <label for="fecha">Fecha de Nacimiento:</label>
+                            <input id="fecha" type="date" name="fecha" required>
+                        </div>
+                        <div class="formu">
+                        <label>Género:</label>
+                        <label for="hombre">Hombre:</label>
+                        <input type="radio" id="hombre" name="genero" value="Hombre">
+                        <label for="mujer">Mujer:</label>
+                        <input type="radio" id="mujer" name="genero" value="Mujer">
+                        <label for="motivo">Motivo de Contacto:</label>
+                        <textarea id="motivo" placeholder="Queria hacer una consulta sobre..."></textarea>
+                        <label for="dni">DNI:</label>
+                        <input type="file" id="dni" name="dni">
+                    </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend><h3>Otros datos de interés</h3></legend>
+                        <div class="formu">
+                        <label>Deportes que practicas:</label>
+                        <label for="baloncesto">Baloncesto</label>
+                        <input type="checkbox" id="baloncesto" name="baloncesto" value="primero" checked>
+                        <label for="futbol">Fútbol</label>
+                        <input type="checkbox" id="futbol" name="futbol" value="segundo">
+                        <label for="esgrima">Esgrima</label>
+                        <input type="checkbox" id="esgrima" name="esgrima" value="tercero">
+                        <label for="natacion">Natación</label>
+                        <input type="checkbox" id="natacion" name="natacion" value="cuarto">
+                        <label for="frecuencia">Frecuencia:</label>
+                        <select id="frecuencia" name="tiempo">
+                            <option selected>Elge una opción</option>
+                            <option value="primero">Nunca</option>
+                            <option value="segundo">1-2 días a la semana</option>
+                            <option value="tercero">3-4 días a la semana</option>
+                            <option value="cuarto">Más de 4 días a la semana</option>
+                        </select>
+                        <label for="color">Color de la camiseta regalo</label>
+                        <input type="color" name="color" id="color">
+                    </div>
+                        <input type="checkbox" id="privacidad" name="privacidad" value="primero" required>
+                        <label for="privacidad">He leído y acepto la <a
+                                href="https://www.aepd.es/politica-de-privacidad-y-aviso-legal">Política de
+                                privacidad</a></label>
+                    </fieldset>
+                    <fieldset>
+
+                        <input type="submit" name="enviar" value="Enviar">
+                        <input type="reset" name="borrar" value="Borrar">
+
+                    </fieldset>
+                </form>
+            </article>
+
+        </section>
+    </main>
+</body>
+<hr />
+
+<footer>
+    <p>
+        <strong><em>© 2024 Alimentación Saludable.</em></strong>Todos los derechos reservados. Todo el contenido de este
+        sitio está
+        protegido por derechos de autor. Queda prohibida su reproducción sin
+        autorización.
+    </p>
+    <div class="spotify">
+        <iframe style="border-radius: 12px"
+            src="https://open.spotify.com/embed/playlist/3Eq3ykcKIJaKFKzjsu2ILk?utm_source=generator" width="100%"
+            height="152" frameborder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <a href="#top"><img class="arriba" src="media/up.png" title="Arriba" alt="Arriba"></a>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,234 @@
+body {
+    background-color: rgba(84, 29, 236, 0.767);
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header {
+    background-image: linear-gradient(lightcoral, rgba(84, 29, 236, 0.767));
+    border-radius: 50px;
+
+}
+
+aside {
+    width: 20%;
+    float: right;
+    display: grid;
+    background-color: rgba(0, 0, 255, 0.33);
+    border-style: solid;
+    font-size: 17.6px;
+
+}
+
+
+.tituloizq {
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(0 0 10px rgb(245, 57, 57));
+
+}
+
+.tituloder {
+    width: 150px;
+    height: 150px;
+    float: right;
+    filter: drop-shadow(0 0 10px rgb(245, 57, 57));
+
+}
+
+.titulocentr {
+    width: 150px;
+    height: 150px;
+    margin-left: 500px;
+    filter: drop-shadow(0 0 10px rgba(71, 248, 68, 0.8));
+
+}
+
+.lista {
+    display: inline;
+    margin: 140px;
+    color: aqua;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+.lista:hover {
+    background-color: rgb(220, 80, 20);
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 1px 5px 1px rgba(3, 32, 3, 0.826);
+    color: rgba(90, 208, 26, 0.896);
+    margin-top: 0px;
+}
+
+.comida {
+    display: flex;
+    filter: drop-shadow(0 0 10px rgba(130, 27, 137, 0.8));
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.826);
+    color: rgba(7, 218, 241, 0.849);
+    margin-top: 10px;
+    background-color: rgba(191, 54, 54, 0.481);
+    border-radius: 500px;
+}
+
+.img-art {
+    width: 120px;
+
+}
+
+.articulo {
+    background-image: linear-gradient(rgba(68, 54, 103, 0.481), rgba(109, 187, 129, 0.296));
+}
+
+.articulo:hover {
+    background-color: lightsalmon;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+figcaption {
+    margin-left: 100px;
+}
+
+.precio {
+    margin-left: 50px;
+}
+
+hr {
+    height: 10px;
+    background-image: linear-gradient(purple, white);
+}
+
+.articulo_principal {
+    background-color: rgba(127, 255, 212, 0.662);
+    border-radius: 100px;
+}
+
+.spotify {
+    display: flex;
+}
+
+.arriba {
+    width: 180px;
+    height: 180px;
+}
+
+footer {
+    background-image: linear-gradient(rgba(99, 49, 238, 0.382), rgba(254, 0, 0, 0.563));
+}
+
+.cien {
+    width: 100%;
+}
+
+.ochenta {
+    width: 80%;
+}
+
+.lista_ordenada {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes {
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+
+.redes_dos {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.displayflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    margin-top: 130px;
+    color: rgb(9, 255, 111);
+    text-shadow: 0px 5px 0px rgba(247, 0, 255, 0.538);
+    font-size: 40px;
+}
+
+.listadesord {
+    list-style-type: upper-roman;
+}
+
+.audio {
+    margin-top: 200px;
+}
+
+table {
+    border: 1px solid;
+    text-align: center;
+
+}
+
+td {
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.dieta {
+    width: 50px;
+    height: 50px;
+}
+
+table:hover {
+    background-color: rgba(32, 178, 171, 0.412);
+}
+
+th:hover {
+    background-color: lightcoral;
+}
+
+td:hover {
+    background-color: lightcoral;
+}
+
+tr:hover {
+    background-color: lightseagreen;
+
+}
+
+.formu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+fieldset:hover {
+    background-color: lightgreen;
+}
+
+legend {
+    text-align: center;
+}

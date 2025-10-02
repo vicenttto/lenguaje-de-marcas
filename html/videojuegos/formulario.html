@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="icon" type="image/png" href="imagenes/favicon.png">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header id="cabecera">
+        <hr>
+        <h1>
+            <center><img src="imagenes/retro_gamepad.png" title="Consola Retro" alt="Consola retro" width="100"
+                    height="100"><em>Museo de los videojuegos</em><img src="imagenes/retro_gamepad.png"
+                    title="Consola Retro" alt="Consola retro" width="100" height="100"></center>
+        </h1>
+        <hr>
+    </header>
+    <nav>
+        <center><a href="index.html"><img src="imagenes/inicio.png" title="Inicio" alt="Inicio" height="100"
+                    width="100"></a>
+            <a href="videojuegos.html"><img src="imagenes/juegos.png" title="Videojuegos" alt="Videojuegos" height="100"
+                    width="100"></a>
+            <a href="videoconsolas.html"><img src="imagenes/videoconsolas_icono.png" title="Videoconsolas"
+                    alt="Videoconsolas" height="100" width="100"></a>
+            <a href="formulario.html"><img src="imagenes/formulario.png" title="Formulario" alt="Formulario"
+                    height="100" width="100"></a>
+            <a href="donde_estamos.html"><img src="imagenes/ubicacion.png" title="Ubicación" alt="Ubicación"
+                    height="100" width="100"></a>
+            <a href="contacto.html"><img src="imagenes/contacto.png" title="Contacto" alt="Contacto" height="100"
+                    width="100"></a>
+            <a href="#footer"><img src="imagenes/abajo.png" title="Footer" alt="Footer" height="100" width="100"></a>
+        </center>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <hr>
+                <h2>
+                    <center><em>Formularios</em></center>
+                </h2>
+                <hr>
+                <p>En esta sección podrás interactuar con nosotros de diversas maneras. Desde contactarnos directamente
+                    hasta inscribirte en eventos y darnos tu opinión sobre el museo. Cada formulario tiene un propósito
+                    específico y está diseñado para mejorar tu experiencia y ayudarnos a ofrecerte lo mejor. Te
+                    invitamos a explorar cada opción y participar activamente en nuestra comunidad.</p>
+            </article>
+            <article>
+                <h3>Formulario de Contacto</h3>
+                <hr>
+                <p>Utiliza este formulario para enviarnos cualquier pregunta, sugerencia o comentario. Queremos
+                    escucharte y estamos aquí para ayudarte en lo que necesites.</p>
+                <form>
+                    <fieldset>
+                        <legend>Información de contacto
+                        </legend>
+                        <div>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" required name="nombre" id="nombre" placeholder="Introducir nombre"
+                                size="20" maxlength="15">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">Dirección de correo electrónico:</label>
+                            <input type="email" id="email">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="mensaje">Mensaje:</label>
+                            <input type="text" name="mensaje" id="mensaje" size="50"
+                                placeholder="Mándanos tus sugerencias">
+                        </div>
+                        <br>
+                        <input type="submit" name="enviar" value="Enviar">
+                        <input type="reset" name="borrar" value="Borrar">
+                    </fieldset>
+                </form>
+            </article>
+            <article>
+                <h3>Encuesta sobre Preferencias de Videojuegos</h3>
+                <hr>
+                <p>Queremos saber más sobre tus gustos en videojuegos. Completa esta breve encuesta para que podamos
+                    mejorar nuestras exposiciones y actividades, adaptándolas a tus intereses.</p>
+                <form>
+                    <fieldset>
+                        <legend>Preferencias</legend>
+                        <div>
+                            <p>Género favorito:</p>
+                            <input type="radio" name="preferencias" id="accion" value="Acción">
+                            <label for="accion">Acción</label>
+                            <input type="radio" name="preferencias" id="aventura" value="Aventura">
+                            <label for="aventura">Aventura</label>
+                            <input type="radio" name="preferencias" id="RPG" value="RPG">
+                            <label for="RPG">RPG</label>
+                            <input type="radio" name="preferencias" id="estrategia" value="Estrategia">
+                            <label for="estrategia">Estrategia</label>
+                        </div>
+                        <br>
+                        <div>
+                            <p>Plataforma preferida:</p>
+                            <select name="plataforma">
+                                <option selected>-----Elige tu plataforma-----</option>
+                                <option value="ps5">PS5</option>
+                                <option value="switch">Switch</option>
+                                <option value="xbox">X-Box</option>
+                                <option value="pc">PC</option>
+                            </select>
+                        </div>
+                        <br>
+                        <p>Color de tu avatar:</p>
+                        <div>
+                            <input type="color" name="color">
+                        </div>
+                        <br>
+                        <p>Fecha de tu próxima compra:</p>
+                        <div>
+                            <input type="date" name="fecha">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="compra">Futuras compras:</label>
+                            <input type="text" name="compra" id="compra" size="50"
+                                placeholder="El producto que me voy a comprar es...">
+                        </div>
+                        <br>
+                        <input type="submit" name="enviar" value="Enviar">
+                        <input type="reset" name="borrar" value="Borrar">
+                    </fieldset>
+                </form>
+            </article>
+            <article>
+                <h3> Inscripción a Eventos</h3>
+                <hr>
+                <p>Si estás interesado en asistir a alguno de nuestros eventos, como charlas o competiciones de
+                    videojuegos, regístrate aquí. ¡Nos encantaría contar con tu participación!</p>
+                <form>
+                    <fieldset>
+                        <legend>Eventos</legend>
+                        <br>
+                        <div>
+                            <label for="email">Dirección de correo electrónico:</label>
+                            <input type="email" id="email">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="torneo"><input type="checkbox" name="evento_torneo" id="torneo"
+                                    value="primer_checkbox">Torneo de Videojuegos</label>
+                            <label for="conferencia"><input type="checkbox" name="evento_conferencia" id="conferencia"
+                                    value="segunda">Conferencia sobre la Historia del Videojuego</label>
+                            <label for="vr"><input type="checkbox" name="evento_vr" id="vr"
+                                    value="tercero_checkbox">Demostraciones de Realidad Virtual</label>
+                            <label for="dron"><input type="checkbox" name="evento_dron" id="dron"
+                                    value="cuarta_checkbox">Montaje de Drones</label>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="avatar">Sube una imagen para usar como avatar en el torneo:</label>
+                            <br>
+                            <input type="file" name="avatar" id="avatar">
+                        </div>
+                        <br>
+                        <input type="submit" name="enviar" value="Enviar">
+                        <input type="reset" name="borrar" value="Borrar">
+                    </fieldset>
+                </form>
+            </article>
+            <article>
+                <h3>Horario de Actividades</h3>
+                <hr>
+                <p>Pincha en la imagen para descargar el calendario de eventos:</p>
+                <a href="calendario.pdf" target="_blank"><img src="imagenes/calendario.png" alt="calendario"
+                        title="Calendario" height="100" width="100"></a>
+                <h3>Enviar un correo electrónico</h3>
+                <hr>
+                <p>Si prefieres, también puedes enviarnos un correo electrónico pinchando en la siguiete imagen:</p>
+                <a href="mailto:visitas@gamesmuseum.com?subject=Sugerencia"><img src="imagenes/mail.png" alt="correo"
+                        title="Correo" height="100" width="100"></a>
+            </article>
+        </section>
+    </main>
+</body>
+<footer id="footer">
+    <hr>
+    <h4>&copy;2024 Museo de los Videojuegos. Todos los derechos reservados.</h4>
+    <p><em>Este sitio web y su contenido, incluyendo textos, imágenes y otros elementos visuales, están
+            protegidos
+            por derechos de autor y son propiedad exclusiva de "Museo de los Videojuegos". Queda prohibida su
+            reproducción, distribución o modificación sin el consentimiento previo por escrito. Para más
+            información, visita nuestra política de privacidad y términos de uso.</em></p>
+    <hr>
+    <center><a href="#top"><img src="imagenes/arriba.png" title="arriba" alt="arriba" width="100" height="100"></a>
+    </center>
+    <a href="index.html"><img src="imagenes/huir.jpg" title="atras" alt="atras" width="150" height="50"></a>
+
+</html>

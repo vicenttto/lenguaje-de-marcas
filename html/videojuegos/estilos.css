@@ -1,0 +1,49 @@
+body {
+    background: lightblue;
+    font-family: -apple-system, Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: lightsalmon;
+    text-align: center;
+    border-bottom: 3px dashed black;
+}
+
+
+
+
+
+nav {
+    background: lightgreen;
+    border-bottom: 3px dashed black;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: royalblue;
+}
+
+footer {
+    background: lightpink;
+    color: mediumslateblue
+}
+
+form {
+    color: white;
+    background: lightseagreen;
+}
+
+aside {
+    float: right;
+    width: 100px;
+    background: lightgoldenrodyellow;
+    min-height: 4220px;
+
+}
